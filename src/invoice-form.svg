@@ -1,0 +1,46 @@
+<svg width="375" height="667" viewBox="0 0 375 667" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="375" height="667" fill="#F8FAFC"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="375" height="88" fill="#667EEA"/>
+  <text x="187.5" y="55" text-anchor="middle" fill="white" font-family="Inter" font-size="18" font-weight="600">New Invoice</text>
+  
+  <!-- Form Content -->
+  <rect x="16" y="104" width="343" height="50" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="24" y="125" fill="#64748B" font-family="Inter" font-size="12">Company Name</text>
+  <text x="24" y="142" fill="#1E293B" font-family="Inter" font-size="16">My Company Inc.</text>
+  
+  <rect x="16" y="170" width="343" height="50" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="24" y="191" fill="#64748B" font-family="Inter" font-size="12">Client Name</text>
+  <text x="24" y="208" fill="#1E293B" font-family="Inter" font-size="16">Acme Corporation</text>
+  
+  <rect x="16" y="236" width="343" height="50" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="24" y="257" fill="#64748B" font-family="Inter" font-size="12">Invoice Number</text>
+  <text x="24" y="274" fill="#1E293B" font-family="Inter" font-size="16">INV-0001</text>
+  
+  <!-- Items Section -->
+  <text x="24" y="318" fill="#1E293B" font-family="Inter" font-size="16" font-weight="600">Invoice Items</text>
+  
+  <rect x="16" y="332" width="343" height="80" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="24" y="353" fill="#64748B" font-family="Inter" font-size="12">Service Description</text>
+  <text x="24" y="370" fill="#1E293B" font-family="Inter" font-size="14">Web Development</text>
+  <text x="24" y="389" fill="#64748B" font-family="Inter" font-size="12">Qty: 1 × $2,500.00</text>
+  <text x="335" y="389" text-anchor="end" fill="#1E293B" font-family="Inter" font-size="14" font-weight="600">$2,500.00</text>
+  
+  <!-- Totals -->
+  <rect x="16" y="428" width="343" height="120" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="24" y="449" fill="#64748B" font-family="Inter" font-size="12">Subtotal</text>
+  <text x="335" y="449" text-anchor="end" fill="#1E293B" font-family="Inter" font-size="14">$2,500.00</text>
+  
+  <text x="24" y="473" fill="#64748B" font-family="Inter" font-size="12">Tax (8.25%)</text>
+  <text x="335" y="473" text-anchor="end" fill="#1E293B" font-family="Inter" font-size="14">$206.25</text>
+  
+  <line x1="24" y1="485" x2="335" y2="485" stroke="#E2E8F0"/>
+  
+  <text x="24" y="509" fill="#1E293B" font-family="Inter" font-size="16" font-weight="600">Total</text>
+  <text x="335" y="509" text-anchor="end" fill="#667EEA" font-family="Inter" font-size="16" font-weight="600">$2,706.25</text>
+  
+  <!-- Generate Button -->
+  <rect x="16" y="570" width="343" height="48" rx="12" fill="#667EEA"/>
+  <text x="187.5" y="599" text-anchor="middle" fill="white" font-family="Inter" font-size="16" font-weight="600">Generate PDF Invoice</text>
+</svg>

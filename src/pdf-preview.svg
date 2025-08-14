@@ -1,0 +1,81 @@
+<svg width="375" height="667" viewBox="0 0 375 667" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="375" height="667" fill="#1E293B"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="375" height="88" fill="#1E293B"/>
+  <text x="187.5" y="55" text-anchor="middle" fill="white" font-family="Inter" font-size="18" font-weight="600">Invoice Preview</text>
+  
+  <!-- Close Button -->
+  <circle cx="40" cy="50" r="16" fill="rgba(255,255,255,0.1)"/>
+  <text x="40" y="55" text-anchor="middle" fill="white" font-family="Inter" font-size="16">×</text>
+  
+  <!-- Share Button -->
+  <circle cx="335" cy="50" r="16" fill="rgba(255,255,255,0.1)"/>
+  <text x="335" y="55" text-anchor="middle" fill="white" font-family="Inter" font-size="12">↗</text>
+  
+  <!-- PDF Document -->
+  <rect x="20" y="104" width="335" height="440" rx="8" fill="white" stroke="#E2E8F0"/>
+  
+  <!-- PDF Header -->
+  <text x="32" y="130" fill="#1E293B" font-family="Inter" font-size="18" font-weight="700">My Company Inc.</text>
+  <text x="32" y="146" fill="#64748B" font-family="Inter" font-size="12">123 Business Street</text>
+  <text x="32" y="160" fill="#64748B" font-family="Inter" font-size="12">New York, NY 10001</text>
+  
+  <text x="323" y="130" text-anchor="end" fill="#1E293B" font-family="Inter" font-size="24" font-weight="300">INVOICE</text>
+  <text x="323" y="146" text-anchor="end" fill="#64748B" font-family="Inter" font-size="12">#INV-0001</text>
+  
+  <!-- Bill To -->
+  <text x="32" y="190" fill="#64748B" font-family="Inter" font-size="10" font-weight="600">BILL TO</text>
+  <text x="32" y="206" fill="#1E293B" font-family="Inter" font-size="14" font-weight="600">Acme Corporation</text>
+  <text x="32" y="220" fill="#64748B" font-family="Inter" font-size="12">456 Client Street</text>
+  <text x="32" y="234" fill="#64748B" font-family="Inter" font-size="12">Brooklyn, NY 11201</text>
+  
+  <!-- Invoice Details -->
+  <text x="245" y="190" fill="#64748B" font-family="Inter" font-size="10">Date:</text>
+  <text x="323" y="190" text-anchor="end" fill="#1E293B" font-family="Inter" font-size="10">Dec 8, 2024</text>
+  <text x="245" y="206" fill="#64748B" font-family="Inter" font-size="10">Due Date:</text>
+  <text x="323" y="206" text-anchor="end" fill="#1E293B" font-family="Inter" font-size="10">Jan 7, 2025</text>
+  <text x="245" y="222" fill="#64748B" font-family="Inter" font-size="10">Terms:</text>
+  <text x="323" y="222" text-anchor="end" fill="#1E293B" font-family="Inter" font-size="10">NET-30</text>
+  
+  <!-- Table Header -->
+  <rect x="32" y="260" width="291" height="24" fill="#667EEA"/>
+  <text x="40" y="275" fill="white" font-family="Inter" font-size="10" font-weight="500">SERVICE DESCRIPTION</text>
+  <text x="180" y="275" fill="white" font-family="Inter" font-size="10" font-weight="500">QTY</text>
+  <text x="220" y="275" fill="white" font-family="Inter" font-size="10" font-weight="500">RATE</text>
+  <text x="315" y="275" text-anchor="end" fill="white" font-family="Inter" font-size="10" font-weight="500">AMOUNT</text>
+  
+  <!-- Table Row -->
+  <rect x="32" y="284" width="291" height="40" fill="#F8FAFC"/>
+  <text x="40" y="299" fill="#1E293B" font-family="Inter" font-size="10" font-weight="500">Web Development</text>
+  <text x="40" y="311" fill="#64748B" font-family="Inter" font-size="9">Professional website design</text>
+  <text x="180" y="305" fill="#1E293B" font-family="Inter" font-size="10">1</text>
+  <text x="220" y="305" fill="#1E293B" font-family="Inter" font-size="10">$2,500.00</text>
+  <text x="315" y="305" text-anchor="end" fill="#1E293B" font-family="Inter" font-size="10">$2,500.00</text>
+  
+  <!-- Totals -->
+  <rect x="210" y="340" width="113" height="80" fill="#F8FAFC"/>
+  <text x="218" y="355" fill="#64748B" font-family="Inter" font-size="10">Subtotal:</text>
+  <text x="315" y="355" text-anchor="end" fill="#1E293B" font-family="Inter" font-size="10">$2,500.00</text>
+  <text x="218" y="371" fill="#64748B" font-family="Inter" font-size="10">Tax (8.25%):</text>
+  <text x="315" y="371" text-anchor="end" fill="#1E293B" font-family="Inter" font-size="10">$206.25</text>
+  
+  <line x1="218" y1="380" x2="315" y2="380" stroke="#667EEA"/>
+  
+  <text x="218" y="395" fill="#1E293B" font-family="Inter" font-size="12" font-weight="600">Total:</text>
+  <text x="315" y="395" text-anchor="end" fill="#667EEA" font-family="Inter" font-size="12" font-weight="600">$2,706.25</text>
+  
+  <!-- Notes -->
+  <text x="32" y="450" fill="#64748B" font-family="Inter" font-size="10" font-weight="600">NOTES</text>
+  <text x="32" y="466" fill="#64748B" font-family="Inter" font-size="10">Thank you for your business!</text>
+  
+  <!-- Action Buttons -->
+  <rect x="16" y="570" width="100" height="40" rx="8" fill="rgba(255,255,255,0.1)"/>
+  <text x="66" y="594" text-anchor="middle" fill="white" font-family="Inter" font-size="14" font-weight="500">Save</text>
+  
+  <rect x="132" y="570" width="111" height="40" rx="8" fill="rgba(255,255,255,0.1)"/>
+  <text x="187.5" y="594" text-anchor="middle" fill="white" font-family="Inter" font-size="14" font-weight="500">Email</text>
+  
+  <rect x="259" y="570" width="100" height="40" rx="8" fill="#667EEA"/>
+  <text x="309" y="594" text-anchor="middle" fill="white" font-family="Inter" font-size="14" font-weight="500">Share</text>
+</svg>
