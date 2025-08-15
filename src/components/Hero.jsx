@@ -1,5 +1,5 @@
-// Import hero image so Vite handles it in build
-import heroImage from '../assets/hero.png'
+// Import inspo image so Vite handles it in build
+import inspoImage from '../assets/inspo.png'
 
 const Hero = () => {
   const scrollToDownload = () => {
@@ -43,8 +43,8 @@ const Hero = () => {
           <div className="phone-mockup">
             <div className="phone-screen">
               <img 
-                src={heroImage}
-                alt="AI Home Design app"
+                src={inspoImage}
+                alt="AI Home Design inspiration"
                 className="hero-screenshot"
                 loading="eager"
               />

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import invoiceIcon from '../invoiceicon.svg?url'
+import iconImage from '../assets/icon.png'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <div className="footer-brand" style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}>
               <div className="footer-brand-icon">
-                <img src={invoiceIcon} alt="App Icon" style={{ width: '24px', height: '24px', borderRadius: '6px' }} />
+                <img src={iconImage} alt="AI Home Design Icon" style={{ width: '24px', height: '24px', borderRadius: '6px' }} />
               </div>
               <h3>AI Home Design</h3>
             </div>

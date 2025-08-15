@@ -1,5 +1,5 @@
-// Import screen3 for the phone mockup here
-import screen3 from '../assets/screen3.png'
+// Import onboard image for the phone mockup here
+import onboardImage from '../assets/onboard.png'
 
 const Download = () => {
   return (
@@ -53,8 +53,8 @@ const Download = () => {
           <div className="download-image">
             <div className="phone-mockup-large">
               <img 
-                src={screen3}
-                alt="AI Home Design download preview"
+                src={onboardImage}
+                alt="AI Home Design onboarding"
                 style={{ 
                   width: '100%', 
                   height: '100%', 

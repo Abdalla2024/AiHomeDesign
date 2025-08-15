@@ -1,5 +1,5 @@
 // Import screenshots so Vite handles asset paths
-import hero from '../assets/hero.png'
+import inspo from '../assets/inspo.png'
 import screen1 from '../assets/screen1.png'
 import screen2 from '../assets/screen2.png'
 // Note: screen3 is used in the Download section
@@ -9,7 +9,7 @@ const Screenshots = () => {
     {
       title: "Upload & set preferences",
       description: "Upload your room photo, pick a style, and add an optional prompt.",
-      image: hero,
+      image: inspo,
     },
     {
       title: "AI generating your design",
